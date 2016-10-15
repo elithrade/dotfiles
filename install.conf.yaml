@@ -10,5 +10,7 @@
     ~/.config/nvim: nvim
     ~/.config/terminator: terminator
     ~/.fonts: fonts
+    ~/.config/omf: omf
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
