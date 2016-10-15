@@ -9,6 +9,6 @@
     ~/.wallpapers: wallpapers
     ~/.config/nvim: nvim
     ~/.config/terminator: terminator
-
+    ~/.fonts: fonts
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
