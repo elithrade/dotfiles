@@ -3,5 +3,5 @@
   url = https://github.com/anishathalye/dotbot
 
 [submodule "vundle"]
-  path = ~/.vim/bundle
+  path = /vim/bundle
   url = https://github.com/VundleVim/Vundle.vim.git
