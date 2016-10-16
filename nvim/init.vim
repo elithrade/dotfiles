@@ -61,6 +61,18 @@ endif
 " Search and replace
 nmap <Leader>s :%s//g<Left><Left>
 
+" Tell Vim which characters to show for expanded Tabs, trailing whitespace, and end-of-lines
+if &listchars ==# 'eol:$'
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+endif
+
+ " Show problematic characters
+set list
+
+" Also highlight all tabs and trailing whitespace characters.
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+match ExtraWhitespace /\s\+$\|\t/
+
 " Do not care about swap file
 set noswapfile
 
@@ -87,5 +99,3 @@ nnoremap <Leader>f :CtrlPMRUFiles<CR>
 
 " Plugin configurations
 let g:airline_theme='powerlineish'
-
-
