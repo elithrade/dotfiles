@@ -14,5 +14,8 @@
     ~/.vim: vim
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
-  - [curl -L http://get.oh-my.fish | fish]
+  - git submodule update --init --recursive
+  -
+    command: curl -L http://get.oh-my.fish | fish
+    stdin: true
+    stdout: true
