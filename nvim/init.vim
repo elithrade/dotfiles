@@ -53,6 +53,12 @@ set ignorecase
 " ... unless search query has capital letters
 set smartcase
 
+" Use <C-L> to clear the highlighting of :set hlsearch
+if maparg('<C-L>', 'n') ==# ''
+  nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
+endif
+
+" Do not care about swap file
 set noswapfile
 
 " Airline already shows which mode
