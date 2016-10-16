@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-bufferline'
+Plugin 'tpope/vim-fugitive'
 
 " Finished loading plugins
 call vundle#end()            " required
