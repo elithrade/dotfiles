@@ -39,10 +39,10 @@ set clipboard=unnamed
 set expandtab
 
 " Render Tab using this many spaces
-set tabstop=2
+set tabstop=4
 
 " Indentation amount for < and > commands
-set shiftwidth=2
+set shiftwidth=4
 
 " Highlight search results
 set hlsearch
