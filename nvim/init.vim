@@ -58,6 +58,9 @@ if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
 endif
 
+" Search and replace
+nmap <Leader>s :%s//g<Left><Left>
+
 " Do not care about swap file
 set noswapfile
 
