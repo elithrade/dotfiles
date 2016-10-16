@@ -15,6 +15,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'bling/vim-bufferline'
 
 " Finished loading plugins
 call vundle#end()            " required
@@ -99,3 +100,4 @@ nnoremap <Leader>f :CtrlPMRUFiles<CR>
 
 " Plugin configurations
 let g:airline_theme='powerlineish'
+let g:airline#extensions#tabline#enabled = 1
