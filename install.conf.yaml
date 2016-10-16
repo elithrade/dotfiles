@@ -7,6 +7,7 @@
 
 - link:
     ~/.wallpapers: wallpapers
+    ~/.themes: themes
     ~/.config/nvim: nvim
     ~/.config/terminator: terminator
     ~/.fonts: fonts
