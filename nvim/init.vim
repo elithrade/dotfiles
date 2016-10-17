@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 " Custom plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-fugitive'
@@ -28,7 +27,7 @@ let base16colorspace=256
 set background=dark
 
 syntax enable
-colorscheme jellybeans
+colorscheme spacegray
 
 " Map the leader key to space
 let mapleader="\<SPACE>"
