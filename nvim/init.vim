@@ -16,6 +16,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'chriskempson/base16-vim'
 
 " Finished loading plugins
 call vundle#end()            " required
@@ -27,7 +28,7 @@ let base16colorspace=256
 set background=dark
 
 syntax enable
-colorscheme spacegray
+colorscheme base16-default-dark
 
 " Map the leader key to space
 let mapleader="\<SPACE>"
@@ -101,6 +102,7 @@ nnoremap <Leader>f :CtrlPMRUFiles<CR>
 " Plugin configurations
 let g:airline_theme='powerlineish'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#ctrlp#enabled = 1
 
 " Powerline symbols
 let g:airline_powerline_fonts = 1
