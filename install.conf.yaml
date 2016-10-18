@@ -15,6 +15,7 @@
     ~/.fonts: fonts
     ~/.config/omf: omf
     ~/.vim: vim
+    ~/.config/termite: termite
 
 - shell:
   - git submodule update --init --recursive
