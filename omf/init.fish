@@ -1,2 +1,1 @@
-# Aliases
-alias vim='nvim'
+source ~/.config/omf/aliases.fish
