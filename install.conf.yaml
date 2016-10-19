@@ -16,6 +16,7 @@
     ~/.config/omf: omf
     ~/.vim: vim
     ~/.config/termite: termite
+    ~/.aliases.sh: aliases.sh
 
 - shell:
   - git submodule update --init --recursive

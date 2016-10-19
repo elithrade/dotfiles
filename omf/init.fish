@@ -1,5 +1,5 @@
 # Aliases
-source ~/.config/omf/aliases.fish
+source ~/.aliases.sh
 
 # Base16 Shell
 if status --is-interactive
