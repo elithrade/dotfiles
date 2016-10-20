@@ -7,9 +7,6 @@
 - clean: ['~', ~/.config]
 
 - link:
-    ~/.wallpapers: wallpapers
-    ~/.themes: themes
-    ~/.local/share/icons: icons
     ~/.config/nvim: nvim
     ~/.config/terminator: terminator
     ~/.fonts: fonts
