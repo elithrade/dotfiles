@@ -18,6 +18,7 @@ Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chriskempson/base16-vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'edkolev/tmuxline.vim'
 
 " Finished loading plugins
 call vundle#end()            " required
