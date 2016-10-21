@@ -20,6 +20,10 @@
 - shell:
   - git submodule update --init --recursive
   -
+    command: curl -L http://get.oh-my.fish | fish
+    stdin: true
+    stdout: true
+  -
     command: curl https://cdn.rawgit.com/zsh-users/antigen/v1.2.1/bin/antigen.zsh > antigen.zsh
     stdin: true
     stdout: true
