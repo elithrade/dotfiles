@@ -11,6 +11,7 @@
     ~/.config/terminator: terminator
     ~/.fonts: fonts
     ~/.config/omf: omf
+    ~/.tmux.conf: tmux.conf
     ~/.vim: vim
     ~/.config/termite: termite
     ~/.aliases.sh: aliases.sh
