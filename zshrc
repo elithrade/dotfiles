@@ -6,6 +6,7 @@ source ~/antigen.zsh
 
 antigen use oh-my-zsh
 antigen bundle jump
+antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen theme https://github.com/halfo/lambda-mod-zsh-theme lambda-mod
 
