@@ -18,6 +18,8 @@ Plugin 'bling/vim-bufferline'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chriskempson/base16-vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'neomake/neomake'
+Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Finished loading plugins
 call vundle#end()            " required
@@ -36,7 +38,7 @@ let mapleader="\<SPACE>"
 
 set number
 set relativenumber
-set clipboard=unnamed
+set clipboard+=unnamed
 
 " Insert spaces when Tab is pressed
 set expandtab
@@ -76,6 +78,7 @@ set noswapfile
 
 " Airline already shows which mode
 set noshowmode
+set laststatus=2
 
 " Abbreviations
 cnoreabbrev Wq wq
@@ -95,12 +98,9 @@ nnoremap <Leader>b :CtrlPBuffer<CR>
 " Open most recently used files
 nnoremap <Leader>f :CtrlPMRUFiles<CR>
 
-" Plugin configurations
-let g:airline_theme='powerlineish'
+" Airline configurations
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#ctrlp#enabled = 1
-
-" Powerline symbols
 let g:airline_powerline_fonts = 1
 
 if !exists('g:airline_symbols')
@@ -129,3 +129,33 @@ let g:airline_right_alt_sep = ''
 let g:airline_symbols.branch = ''
 let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ''
+
+" Resolves eslint and use neomake to do the linting
+function! ResolveESLint()
+    let l:npm_bin = ''
+    let l:eslint = 'eslint'
+    if executable('npm')
+        let l:npm_bin = split(system('npm bin'), '\n')[0]
+    endif
+    if strlen(l:npm_bin) && executable(l:npm_bin . '/eslint')
+        let l:eslint = l:npm_bin . '/eslint'
+    endif
+    let b:neomake_javascript_eslint_exe = l:eslint
+endfunction
+
+autocmd FileType javascript :call ResolveESLint()
+autocmd! BufWritePost,BufReadPost * Neomake
+
+let g:neomake_javascript_enabled_makers = ['eslint']
+let g:neomake_warning_sign = {
+    \ 'text': 'W',
+    \ 'texthl': 'WarningMsg',
+    \ }
+let g:neomake_error_sign = {
+    \ 'text': 'E',
+    \ 'texthl': 'ErrorMsg',
+    \ }
+let g:neomake_open_list = 2
+
+" Use deopplete
+let g:deoplete#enable_at_startup = 1
