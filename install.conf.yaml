@@ -10,7 +10,6 @@
     ~/.config/nvim: nvim
     ~/.config/terminator: terminator
     ~/.fonts: fonts
-    ~/.config/omf: omf
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim
