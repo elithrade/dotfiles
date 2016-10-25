@@ -13,6 +13,9 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 call plug#end()
 
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+filetype plugin indent on
+
 let base16colorspace=256
 set background=dark
 

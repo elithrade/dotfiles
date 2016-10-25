@@ -12,7 +12,6 @@
     ~/.fonts: fonts
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
-    ~/.vim: vim
     ~/.config/termite: termite
     ~/.aliases.sh: aliases.sh
 
