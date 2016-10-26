@@ -18,13 +18,10 @@ set clipboard+=unnamed
 set expandtab
 
 " Render Tab using this many spaces
-set tabstop=4
+set tabstop=2
 
 " Indentation amount for < and > commands
-set shiftwidth=4
-
-" Highlight search results
-set hlsearch
+set shiftwidth=2
 
 " Make searching case insensitive
 set ignorecase
@@ -49,10 +46,6 @@ match ExtraWhitespace /\s\+$\|\t/
 
 " Do not care about swap file
 set noswapfile
-
-" Airline already shows which mode
-set noshowmode
-set laststatus=2
 
 " Abbreviations
 cnoreabbrev Wq wq
