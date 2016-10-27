@@ -1,5 +1,4 @@
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-filetype plugin indent on
 
 let base16colorspace=256
 set background=dark
@@ -39,10 +38,6 @@ endif
 
  " Show problematic characters
 set list
-
-" Also highlight all tabs and trailing whitespace characters.
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
-match ExtraWhitespace /\s\+$\|\t/
 
 " Do not care about swap file
 set noswapfile

@@ -1,4 +1,5 @@
-" Loading plugins
+filetype off
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
@@ -13,5 +14,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/echodoc.vim'
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'tpope/vim-surround'
+Plug 'SirVer/ultisnips'
 
 call plug#end()
+
+filetype plugin indent on
