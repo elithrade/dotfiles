@@ -4,7 +4,11 @@ let base16colorspace=256
 set background=dark
 
 syntax enable
-colorscheme base16-default-dark
+try
+  colorscheme base16-gooey
+catch
+  " We don't have it
+endtry
 
 " Map the leader key to space
 let mapleader="\<SPACE>"

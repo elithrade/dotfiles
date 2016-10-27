@@ -1,14 +1,3 @@
-[options]
-scrollback_lines = 10001
-font             = PragmataPro Regular 13
-clickable_url    = true
-browser          = chromium
-allow_bold       = true
-allow_italic     = true
-visible_bell     = false
-mouse_autohide   = true
-audible_bell = true
-
 [colors]
 # Base16 Gooey
 # Scheme: Alex Booker <alexbooker@fastmail.im>
@@ -43,3 +32,4 @@ color18 = #1f222d
 color19 = #252936
 color20 = #C0C5CE
 color21 = #C9CCDB
+

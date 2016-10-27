@@ -12,7 +12,10 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'neomake/neomake'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/echodoc.vim'
-Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript', 'do': 'npm install -g tern' }
+Plug 'othree/yajs.vim', { 'for': 'javascript' }
+Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
+Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 
