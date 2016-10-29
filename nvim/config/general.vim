@@ -40,7 +40,7 @@ if &listchars ==# 'eol:$'
   set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
 endif
 
- " Show problematic characters
+" Show problematic characters
 set list
 
 " Do not care about swap file
