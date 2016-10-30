@@ -16,3 +16,8 @@ alias gcp="git cherry-pick $1"
 alias l="ls -o -hX --group-directories-first"
 alias la="ls -o -AhX --group-directories-first"
 alias v='nvim'
+
+# Npm
+alias ni="npm install";
+alias nis="npm i -S "
+alias nig="npm i -g "
