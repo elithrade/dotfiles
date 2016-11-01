@@ -1,4 +1,4 @@
-" Resolves eslint and use neomake to do the linting
+" Resolve local eslint
 function! ResolveESLint()
   let l:npm_bin = ''
   let l:eslint = 'eslint'
@@ -12,6 +12,8 @@ function! ResolveESLint()
 endfunction
 
 autocmd FileType javascript :call ResolveESLint()
+
+" Run Neomake when start editing or writing to file
 autocmd! BufWritePost,BufReadPost * Neomake
 
 let g:neomake_javascript_enabled_makers = ['eslint']

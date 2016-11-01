@@ -56,10 +56,4 @@ nnoremap Y y$
 vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+p
 nnoremap ; :
-
-" Open file menu
-nnoremap <Leader>o :CtrlP<CR>
-" Open buffer menu
-nnoremap <Leader>b :CtrlPBuffer<CR>
-" Open most recently used files
-nnoremap <Leader>f :CtrlPMRUFiles<CR>
+nnoremap ;; ;
