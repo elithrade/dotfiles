@@ -21,3 +21,6 @@ alias v='nvim'
 alias ni="npm install";
 alias nis="npm i -S "
 alias nig="npm i -g "
+
+# Yaourt
+alias yao="yaourt"
