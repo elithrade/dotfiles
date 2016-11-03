@@ -15,7 +15,7 @@ let mapleader="\<SPACE>"
 
 set number
 set relativenumber
-set clipboard+=unnamed
+set clipboard=unnamed
 
 " Insert spaces when Tab is pressed
 set expandtab
@@ -57,3 +57,6 @@ vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+p
 nnoremap ; :
 nnoremap ;; ;
+nnoremap n nzz
+nnoremap coh :nohl<CR>
+autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
