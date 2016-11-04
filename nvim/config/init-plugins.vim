@@ -4,7 +4,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bling/vim-bufferline'
 Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
@@ -18,6 +17,7 @@ Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
 Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript', 'do': 'npm install -g tern' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'moll/vim-node'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'
 
