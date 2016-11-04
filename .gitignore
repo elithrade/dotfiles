@@ -1,1 +1,3 @@
-*.old
+autoload
+.tern-port
+.netrwhist
