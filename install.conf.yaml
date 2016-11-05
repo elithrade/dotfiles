@@ -21,23 +21,19 @@
     command: curl https://cdn.rawgit.com/zsh-users/antigen/v1.2.1/bin/antigen.zsh > ~/antigen.zsh
     stdin: true
     stdout: true
-
+  -
     command: curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     stdin: true
     stdout: true
-
-    command: sudo pacman -S python
-    stdin: true
-    stdout: true
-
+  -
     command: sudo pacman -S python-pip
     stdin: true
     stdout: true
-
+  -
     command: sudo pip3 install neovim
     stdin: true
     stdout: true
-
+  -
     command: sudo pip3 install --upgrade neovim
     stdin: true
     stdout: true
