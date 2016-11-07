@@ -51,7 +51,6 @@ cnoreabbrev Wq wq
 cnoreabbrev WQ wq
 
 " Key mappings
-inoremap jj <Esc>
 nnoremap Y y$
 vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+p
@@ -60,3 +59,5 @@ nnoremap ;; ;
 nnoremap n nzz
 nnoremap coh :nohl<CR>
 autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
+" Allow saving of files as sudo when I forgot to start vim using sudo
+cmap w!! w !sudo tee > /dev/null %
