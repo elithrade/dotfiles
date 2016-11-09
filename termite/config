@@ -16,7 +16,7 @@ audible_bell = true
 foreground      = #d1d4e0
 foreground_bold = #d1d4e0
 cursor          = #d1d4e0
-background      = #101218
+background      = rgba(16,18,24,0.9)
 
 # 16 color space
 color0  = #101218
