@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PostSession
+GenericName=PostSession
+Comment=Scripts to run after gnome-session started
+Exec=/home/hub/.ginitrc
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true

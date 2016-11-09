@@ -14,8 +14,7 @@
     ~/.tmux.conf: tmux.conf
     ~/.config/termite: termite
     ~/.aliases.sh: aliases.sh
-    ~/.config/autostart/ginitrc.desktop: ginitrc.desktop
-    ~/.config/autostart/gscreensaver.desktop: gscreensaver.desktop
+    ~/.config/autostart: autostart
 
 - shell:
   - git submodule update --init --recursive

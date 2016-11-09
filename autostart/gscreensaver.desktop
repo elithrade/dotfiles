@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GnomeScreenSaver
+GenericName=GnomeScreenSaver
+Comment=Autostart gnome-screensaver
+Exec=gnome-screensaver
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
