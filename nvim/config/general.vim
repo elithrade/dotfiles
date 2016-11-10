@@ -4,11 +4,14 @@ let base16colorspace=256
 set background=dark
 
 syntax enable
-try
-  colorscheme base16-gooey
-catch
+" try
+  if filereadable(expand("~/.vimrc_background"))
+    let base16colorspace=256
+    source ~/.vimrc_background
+  endif
+" catch
   " We don't have it
-endtry
+" endtry
 
 " Map the leader key to space
 let mapleader="\<SPACE>"
