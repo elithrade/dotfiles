@@ -22,5 +22,10 @@ alias ni="npm install";
 alias nis="npm i -S "
 alias nig="npm i -g "
 
-# Yaourt
+# Yaourt/pacman
 alias yao="yaourt"
+alias autoremove="sudo pacman -Rns $(pacman -Qqtd)"
+
+# Tmux
+alias t="tmux"
+alias e="exit"
