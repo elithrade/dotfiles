@@ -97,6 +97,8 @@ cnoreabbrev WQ wq
 set timeoutlen=500 ttimeoutlen=0
 
 " Key mappings
+nnoremap Q <Nop>
+map q <Nop>
 nnoremap Y y$
 vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+p
