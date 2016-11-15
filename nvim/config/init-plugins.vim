@@ -16,7 +16,9 @@ Plug 'Shougo/vimproc.vim', {'do' : 'make'}
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
 Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript', 'do': 'sudo npm -install -g tern' }
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'othree/yajs.vim', { 'for': 'javascript' }
+Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
+Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'moll/vim-node'
 Plug 'tpope/vim-surround'
 Plug 'SirVer/ultisnips'

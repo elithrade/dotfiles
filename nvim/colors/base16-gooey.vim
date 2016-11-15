@@ -12,7 +12,7 @@ if !has('gui_running')
 endif
 
 " GUI color definitions
-let s:gui00 = "101218;"
+let s:gui00 = "101218"
 let s:gui01 = "1f222d"
 let s:gui02 = "252936"
 let s:gui03 = "7780a1"
@@ -159,7 +159,7 @@ call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Underlined",    s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("Visual",        "", s:gui02, "", s:cterm02, "", "")
 call <sid>hi("VisualNOS",     s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("WarningMsg",    s:gui0A, "", s:cterm0A, "", "", "")
 call <sid>hi("WildMenu",      s:gui08, s:gui0A, s:cterm08, "", "", "")
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "none", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui00, s:cterm0D, s:cterm00, "", "")
@@ -324,3 +324,4 @@ delf <sid>cterm
 " Remove color variables
 unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
+
