@@ -74,6 +74,9 @@ nnoremap <silent> <Leader>zz :call Zap()<CR>
 
 " Do not care about swap file
 set noswapfile
+
+set cc=79
+
 " Make current line number stand out a little
 set highlight+=N:DiffText
 " Blend vertical separators with line numbers
@@ -90,6 +93,7 @@ endif
 
 " Start scrolling 3 lines before edge of viewport
 set scrolloff=3
+
 " Abbreviations
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
@@ -107,5 +111,11 @@ nnoremap ;; ;
 nnoremap n nzz
 nnoremap coh :nohl<CR>
 autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
+nmap s [Window]
+nnoremap <silent> [Window]p :<C-u>vsplit<CR>:wincmd w<CR>
+
+" Tab to switch buffers
+nnoremap <silent> <Tab> :wincmd w<CR>
+
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %
