@@ -21,6 +21,12 @@ alias v='nvim'
 alias ni="npm install";
 alias nis="npm i -S "
 alias nig="npm i -g "
+alias nid="npm i -D "
+alias nr="npm run $1";
+alias nrs="npm run start";
+alias nrb="npm run build";
+alias nrt="npm run test";
+alias nrc="npm run commit";
 
 # Yaourt/pacman
 alias yao="yaourt"
