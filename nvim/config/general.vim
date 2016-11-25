@@ -113,8 +113,7 @@ nnoremap coh :nohl<CR>
 autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
 nmap s [Window]
 nnoremap <silent> [Window]p :<C-u>vsplit<CR>:wincmd w<CR>
-
-" Tab to switch buffers
+nnoremap J mzJ`z
 nnoremap <silent> <Tab> :wincmd w<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
