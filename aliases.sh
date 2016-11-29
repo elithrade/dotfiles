@@ -35,3 +35,5 @@ alias autoremove="sudo pacman -Rns $(pacman -Qqtd)"
 # Tmux
 alias t="tmux"
 alias e="exit"
+alias ta="tmux attach"
+alias tl="tmux ls"
