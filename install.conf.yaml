@@ -48,3 +48,7 @@
     command: sudo pacman -S the_silver_searcher
     stdin: true
     stdout: true
+  -
+    command: sudo pacman -S xsel
+    stdin: true
+    stdout: true
