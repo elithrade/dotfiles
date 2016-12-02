@@ -44,3 +44,7 @@
     command: sudo pip3 install --upgrade neovim
     stdin: true
     stdout: true
+  -
+    command: sudo pacman -S the_silver_searcher
+    stdin: true
+    stdout: true
