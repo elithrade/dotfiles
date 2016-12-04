@@ -1,12 +1,13 @@
+source ~/.aliases.sh
 source ~/antigen.zsh
 
 antigen use oh-my-zsh
-antigen bundle jump
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen theme https://github.com/halfo/lambda-mod-zsh-theme lambda-mod
+antigen bundle mafredri/zsh-async
+antigen bundle sindresorhus/pure
+antigen bundle jump
 
-source ~/.aliases.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
