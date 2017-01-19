@@ -16,6 +16,7 @@
     ~/.config/autostart: autostart
     ~/.zprofile: zprofile
     ~/.ginitrc: ginitrc
+    ~/.themes: themes
 
 - shell:
   - git submodule update --init --recursive
