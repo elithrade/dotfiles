@@ -8,7 +8,6 @@
 
 - link:
     ~/.config/nvim: nvim
-    ~/.config/terminator: terminator
     ~/.fonts: fonts
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux.conf
