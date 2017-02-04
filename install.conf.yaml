@@ -17,6 +17,7 @@
     ~/.zprofile: zprofile
     ~/.ginitrc: ginitrc
     ~/.themes: themes
+    ~/.yaourtrc: yaourtrc
 
 - shell:
   - git submodule update --init --recursive
