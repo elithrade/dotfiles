@@ -59,19 +59,6 @@ set listchars+=extends:»
 set listchars+=precedes:«
 set listchars+=trail:•
 
-" Zap trailing whitespace
-function! Zap() abort
-  let l:pos=getcurpos()
-  let l:search=@/
-  keepjumps %substitute/\s\+$//e
-  let @/=l:search
-  nohlsearch
-  call setpos('.', l:pos)
-endfunction
-
-" <Leader>zz -- Zap trailing whitespace in the current buffer.
-nnoremap <silent> <Leader>zz :call Zap()<CR>
-
 " Do not care about swap file
 set noswapfile
 
