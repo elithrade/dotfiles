@@ -23,8 +23,6 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
-Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
-Plug 'Valloric/YouCompleteMe', {'for': 'typescript'}
 
 call plug#end()
 
