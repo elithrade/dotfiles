@@ -93,8 +93,6 @@ map q <Nop>
 nnoremap Y y$
 vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+p
-nnoremap ; :
-nnoremap ;; ;
 nnoremap n nzz
 nnoremap coh :nohl<CR>
 autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
