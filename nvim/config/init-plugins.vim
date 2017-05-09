@@ -23,6 +23,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
+Plug 'zchee/deoplete-jedi', { 'for': 'python' }
 
 call plug#end()
 
