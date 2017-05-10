@@ -84,6 +84,8 @@ set scrolloff=3
 " Abbreviations
 cnoreabbrev Wq wq
 cnoreabbrev WQ wq
+cnoreabbrev :Q :q
+cnoreabbrev :W :w
 
 set timeoutlen=500 ttimeoutlen=0
 
