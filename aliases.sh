@@ -11,22 +11,24 @@ alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias glo="git log --oneline"
 alias grhh="git reset --hard HEAD"
 alias gcp="git cherry-pick $1"
+alias ga="git add $1"
 
 # Files
 alias l="ls -o -hX --group-directories-first"
 alias la="ls -o -AhX --group-directories-first"
-alias v='nvim'
+alias v="nvim"
+alias zh="nvim ~/.zsh_history"
 
 # Npm
-alias ni="npm install";
+alias ni="npm install"
 alias nis="npm i -S "
 alias nig="npm i -g "
 alias nid="npm i -D "
-alias nr="npm run $1";
-alias nrs="npm run start";
-alias nrb="npm run build";
-alias nrt="npm run test";
-alias nrc="npm run commit";
+alias nr="npm run $1"
+alias nrs="npm run start"
+alias nrb="npm run build"
+alias nrt="npm run test"
+alias nrc="npm run commit"
 
 # Yaourt/pacman
 alias yao="yaourt"
