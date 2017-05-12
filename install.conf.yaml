@@ -34,11 +34,11 @@
     stdin: true
     stdout: true
   -
-    command: sudo pacman -S python-pip
+    command: sudo pacman -S python-pip --noconfirm
     stdin: true
     stdout: true
   -
-    command: sudo pip3 install neovim
+    command: sudo pip3 install neovim --noconfirm
     stdin: true
     stdout: true
   -
@@ -46,11 +46,11 @@
     stdin: true
     stdout: true
   -
-    command: sudo pacman -S the_silver_searcher
+    command: sudo pacman -S the_silver_searcher --noconfirm
     stdin: true
     stdout: true
   -
-    command: sudo pacman -S xsel
+    command: sudo pacman -S xsel --noconfirm
     stdin: true
     stdout: true
   -
