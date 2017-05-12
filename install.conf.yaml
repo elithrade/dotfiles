@@ -38,7 +38,7 @@
     stdin: true
     stdout: true
   -
-    command: sudo pip3 install neovim --noconfirm
+    command: sudo pip3 install neovim
     stdin: true
     stdout: true
   -
