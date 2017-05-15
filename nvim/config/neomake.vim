@@ -17,6 +17,7 @@ autocmd FileType javascript :call ResolveESLint()
 autocmd! BufWritePost,BufReadPost * Neomake
 
 let g:neomake_javascript_enabled_makers = ['eslint']
+
 let g:neomake_warning_sign = {
       \ 'text': 'W',
       \ 'texthl': 'WarningMsg',
