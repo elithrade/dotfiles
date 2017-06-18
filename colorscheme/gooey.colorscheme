@@ -1,16 +1,25 @@
 [Background]
 Color=16,18,24
 
+[BackgroundFaint]
+Color=16,18,24
+
 [BackgroundIntense]
 Color=16,18,24
 
 [Color0]
 Color=16,18,24
 
+[Color0Faint]
+Color=44,47,58
+
 [Color0Intense]
-Color=16,18,24
+Color=97,105,129
 
 [Color1]
+Color=238,130,159
+
+[Color1Faint]
 Color=238,130,159
 
 [Color1Intense]
@@ -19,10 +28,16 @@ Color=238,130,159
 [Color2]
 Color=165,255,255
 
+[Color2Faint]
+Color=165,255,255
+
 [Color2Intense]
 Color=165,255,255
 
 [Color3]
+Color=255,239,252
+
+[Color3Faint]
 Color=255,239,252
 
 [Color3Intense]
@@ -31,10 +46,16 @@ Color=255,239,252
 [Color4]
 Color=151,187,249
 
+[Color4Faint]
+Color=151,187,249
+
 [Color4Intense]
 Color=151,187,249
 
 [Color5]
+Color=192,183,249
+
+[Color5Faint]
 Color=192,183,249
 
 [Color5Intense]
@@ -43,10 +64,16 @@ Color=192,183,249
 [Color6]
 Color=151,224,255
 
+[Color6Faint]
+Color=151,224,255
+
 [Color6Intense]
 Color=151,224,255
 
 [Color7]
+Color=209,212,224
+
+[Color7Faint]
 Color=209,212,224
 
 [Color7Intense]
@@ -55,10 +82,13 @@ Color=209,212,224
 [Foreground]
 Color=209,212,224
 
+[ForegroundFaint]
+Color=209,212,224
+
 [ForegroundIntense]
 Color=209,212,224
 
 [General]
 Description=gooey
-Opacity=1
+Opacity=0.9
 Wallpaper=
