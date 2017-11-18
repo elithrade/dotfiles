@@ -64,11 +64,6 @@ set noswapfile
 
 set cc=79
 
-" Make current line number stand out a little
-set highlight+=N:DiffText
-" Blend vertical separators with line numbers
-set highlight+=c:LineNr
-
 if has('linebreak')
   let &showbreak='⤷ '
 endif
