@@ -1,13 +1,13 @@
 [options]
 scrollback_lines = 10001
-font             = PragmataPro Regular 13
+font             = Iosevka 12
 clickable_url    = true
 browser          = chromium
 allow_bold       = true
 allow_italic     = true
 visible_bell     = false
 mouse_autohide   = true
-audible_bell = true
+audible_bell     = true
 
 [colors]
 # Base16 Gooey
