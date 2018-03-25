@@ -93,10 +93,12 @@ inoremap <C-v> <Esc>"+p
 nnoremap n nzz
 nnoremap coh :nohl<CR>
 autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
-nmap s [Window]
-nnoremap <silent> [Window]p :<C-u>vsplit<CR>:wincmd w<CR>
 nnoremap J mzJ`z
 nnoremap <silent> <Tab> :wincmd w<CR>
+
+nmap <Leader>h :sp<CR>
+nmap <Leader>v :vs<CR>
+nmap <Leader>q :q<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %
