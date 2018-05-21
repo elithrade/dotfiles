@@ -12,7 +12,7 @@ antigen bundle jump
 PURE_PROMPT_SYMBOL='λ'
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" --no-use # This loads nvm
 
 # Uncomment following lines when run it for the first time, it causes konsole to output ////// characters
 # BASE16_SHELL=$HOME/.config/base16-shell/
