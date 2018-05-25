@@ -3,11 +3,11 @@ set laststatus=2
 set noshowmode
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 0
-let g:airline_theme='base16_papercolor'
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
 endif
+let g:airline_theme='onedark'
 
 " Airline symbols
 let g:airline_left_sep = ''
