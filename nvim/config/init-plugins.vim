@@ -29,3 +29,6 @@ Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 call plug#end()
 
 filetype plugin indent on
+
+let g:jedi#completions_enabled = 0
+let g:deoplete#sources#jedi#server_timeout = 25
