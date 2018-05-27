@@ -1,12 +1,10 @@
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
-
-let base16colorspace=256
-set background=dark
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
 syntax enable
+
 try
   if filereadable(expand("~/.vimrc_background"))
-    let base16colorspace=256
     source ~/.vimrc_background
   endif
 catch

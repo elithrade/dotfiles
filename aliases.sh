@@ -36,7 +36,7 @@ alias yao="yaourt"
 alias autoremove="sudo pacman -Rcns $(pacman -Qdtq)"
 
 # Tmux
-alias t="tmux"
+alias t="env TERM=xterm-256color tmux"
 alias e="exit"
-alias ta="tmux attach"
+alias ta="t attach"
 alias tl="tmux ls"
