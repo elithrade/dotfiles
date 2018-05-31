@@ -1,5 +1,0 @@
-#!/bin/sh
-
-setxkbmap -option caps:swapescape &
-pulseaudio --start                &
-~/.screenlayout/default.sh &
