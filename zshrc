@@ -28,4 +28,11 @@ antigen apply
 
 # added by Anaconda3 installer
 export PATH="/home/hub/anaconda3/bin:$PATH"
+. /home/hub/anaconda3/etc/profile.d/conda.sh
 export PATH="$PATH:$HOME/bin"
+
+# roames
+source /etc/modules/init/zsh
+export MODULEPATH=/opt/modules:$MODULEPATH
+module load roames-marine-dev
+PATH=$PATH:~/code/work/scripts

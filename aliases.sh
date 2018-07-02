@@ -40,3 +40,8 @@ alias t="env TERM=xterm-256color tmux"
 alias e="exit"
 alias ta="t attach"
 alias tl="tmux ls"
+
+# aws
+alias asl="aws s3 ls"
+alias ascp="aws s3 cp"
+alias ascpr="aws s3 cp --recursive"

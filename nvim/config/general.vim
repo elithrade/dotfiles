@@ -60,7 +60,7 @@ set listchars+=trail:•
 " Do not care about swap file
 set noswapfile
 
-set cc=79
+set cc=99
 
 if has('linebreak')
   let &showbreak='⤷ '
