@@ -25,6 +25,7 @@ Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
 Plug 'zchee/deoplete-jedi', { 'for': 'python' }
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'vim-python/python-syntax', { 'for': 'python' }
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries', 'for': 'go'}
 
 call plug#end()
 
