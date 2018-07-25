@@ -30,3 +30,6 @@ antigen apply
 export PATH="/home/hub/anaconda3/bin:$PATH"
 . /home/hub/anaconda3/etc/profile.d/conda.sh
 export PATH="$PATH:$HOME/bin"
+
+export GOPATH=$HOME/code/go
+export PATH=$PATH:$GOPATH/bin

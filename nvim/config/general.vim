@@ -12,7 +12,7 @@ catch
 endtry
 
 " Map the leader key to space
-let mapleader="\<SPACE>"
+let mapleader=","
 
 set number
 set relativenumber
@@ -90,13 +90,15 @@ vnoremap <C-c> "+y
 inoremap <C-v> <Esc>"+p
 nnoremap n nzz
 nnoremap coh :nohl<CR>
-autocmd FileType vim nnoremap <F5> :so ~/.config/nvim/init.vim<CR>
 nnoremap J mzJ`z
 nnoremap <silent> <Tab> :wincmd w<CR>
 
+" Horizontal split
 nmap <Leader>- :sp<CR>
+" Vertical split
 nmap <Leader>\ :vs<CR>
 nmap <Leader>q :q<CR>
+nmap <leader>a :cclose<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %
