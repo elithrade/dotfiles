@@ -12,7 +12,7 @@ catch
 endtry
 
 " Map the leader key to space
-let mapleader=","
+let mapleader="\<SPACE>"
 
 set number
 set relativenumber
@@ -93,11 +93,17 @@ nnoremap coh :nohl<CR>
 nnoremap J mzJ`z
 nnoremap <silent> <Tab> :wincmd w<CR>
 
+" Search mappings: These will make it so that going to the next one in a
+" search will center on the line it's found in.
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
 " Horizontal split
 nmap <Leader>- :sp<CR>
 " Vertical split
 nmap <Leader>\ :vs<CR>
 nmap <Leader>q :q<CR>
+nmap <Leader>w :w<CR>
 nmap <leader>a :cclose<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
