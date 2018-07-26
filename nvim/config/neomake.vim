@@ -26,4 +26,3 @@ let g:neomake_error_sign = {
       \ 'text': 'E',
       \ 'texthl': 'ErrorMsg',
       \ }
-let g:neomake_open_list = 2
