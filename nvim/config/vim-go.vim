@@ -18,11 +18,11 @@ augroup go
   autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
   autocmd FileType go nmap <leader>t  <Plug>(go-test)
   autocmd FileType go nmap <leader>r  <Plug>(go-run)
-  autocmd FileType go nmap <Leader>d <Plug>(go-doc)
   autocmd FileType go nmap <Leader>i <Plug>(go-info)
   autocmd FileType go nmap <Leader><F12> <Plug>(go-referrers)
   autocmd FileType go nmap <F12> <Plug>(go-def)
   autocmd FileType go nmap <Leader>rr <Plug>(go-rename)
+  autocmd FileType go nmap <Leader>ii <Plug>(go-implements)
 augroup END
 " build_go_files is a custom function that builds or compiles the test file.
 " It calls :GoBuild if its a Go file, or :GoTestCompile if it's a test file
@@ -34,3 +34,6 @@ function! s:build_go_files()
     call go#cmd#Build(0)
   endif
 endfunction
+
+let g:go_term_mode = "split"
+let g:go_term_height = 10

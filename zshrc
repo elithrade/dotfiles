@@ -33,3 +33,5 @@ export PATH="$PATH:$HOME/bin"
 
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
+
+source ~/.aliases.sh

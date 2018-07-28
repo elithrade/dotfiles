@@ -17,6 +17,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
+Plug 'ryanoasis/vim-devicons'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript' }
 Plug 'othree/yajs.vim', { 'for': 'javascript' }

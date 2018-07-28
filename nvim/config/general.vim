@@ -59,8 +59,16 @@ set listchars+=trail:•
 
 " Do not care about swap file
 set noswapfile
-
 set cc=99
+
+" Show popup menu, even if there is one entry
+set completeopt=menu,menuone
+" Completion window max size
+set pumheight=10
+" Vertical windows should be split to right
+set splitright
+" Horizontal windows should split to bottom
+set splitbelow
 
 if has('linebreak')
   let &showbreak='⤷ '
@@ -108,3 +116,6 @@ nmap <leader>a :cclose<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %
+
+" Closes the terminal buffer and jump back to the previous one
+tnoremap <ESC> <C-\><C-n>:buffer #<CR>

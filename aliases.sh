@@ -45,3 +45,6 @@ alias tl="tmux ls"
 alias asl="aws s3 ls"
 alias ascp="aws s3 cp"
 alias ascpr="aws s3 cp --recursive"
+
+# go
+alias gosrc="cd $GOPATH/src"
