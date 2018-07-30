@@ -29,6 +29,7 @@ Plug 'vim-python/python-syntax', { 'for': 'python' }
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries', 'for': 'go' }
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh', 'for': 'go' }
 Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
+Plug 'sebdah/vim-delve', { 'for': 'go' }
 
 call plug#end()
 
