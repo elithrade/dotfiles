@@ -1,5 +1,6 @@
 nmap \ [unite]
 nnoremap <silent> [unite]f :Unite file_rec/async<CR>
+nnoremap <silent> [unite]g :Unite grep<CR>
 nnoremap <silent> [unite]e :VimFiler -find<CR>
 
 let g:unite_enable_auto_select = 1
