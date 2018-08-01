@@ -19,6 +19,8 @@ augroup go
   autocmd FileType go nmap <leader>t  <Plug>(go-test)
   autocmd FileType go nmap <leader>r  <Plug>(go-run)
   autocmd FileType go nmap <Leader>i <Plug>(go-info)
+  autocmd FileType go nmap <Leader>c <Plug>(go-coverage)
+  autocmd FileType go nmap <Leader>cc <Plug>(go-coverage-clear)
   autocmd FileType go nmap <Leader><F12> <Plug>(go-referrers)
   autocmd FileType go nmap <F12> <Plug>(go-def)
   autocmd FileType go nmap <Leader>rr <Plug>(go-rename)

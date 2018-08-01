@@ -11,14 +11,14 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'Shougo/vimproc.vim', { 'do' : 'make' }
 Plug 'Shougo/unite.vim'
 Plug 'Shougo/vimfiler.vim'
-Plug 'moll/vim-node'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/echodoc.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
-Plug 'ryanoasis/vim-devicons'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript' }
 Plug 'othree/yajs.vim', { 'for': 'javascript' }
 Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }

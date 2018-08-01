@@ -34,4 +34,8 @@ export PATH="$PATH:$HOME/bin"
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
 
+
+# Used by go-torch to create pprof graph
+PATH=$PATH:/opt/FlameGraph
+
 source ~/.aliases.sh
