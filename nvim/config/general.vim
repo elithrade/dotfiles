@@ -16,7 +16,8 @@ let mapleader="\<SPACE>"
 
 set number
 set relativenumber
-set clipboard=unnamed
+" set clipboard=unnamed
+set clipboard+=unnamedplus
 
 " Insert spaces when Tab is pressed
 set expandtab
