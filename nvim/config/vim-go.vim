@@ -19,7 +19,10 @@ augroup go
   autocmd FileType go nmap <leader>t  <Plug>(go-test)
   autocmd FileType go nmap <leader>r  <Plug>(go-run)
   autocmd FileType go nmap <Leader>i <Plug>(go-info)
-  autocmd FileType go nmap <Leader>c <Plug>(go-coverage)
+  autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
+  autocmd FileType go nmap <Leader>d <Plug>(go-doc)
+  " Toggle between file.go and file_test.go
+  autocmd Filetype go nmap <leader>a <Plug>(go-alternate-edit)
   autocmd FileType go nmap <Leader>cc <Plug>(go-coverage-clear)
   autocmd FileType go nmap <Leader><F12> <Plug>(go-referrers)
   autocmd FileType go nmap <F12> <Plug>(go-def)
