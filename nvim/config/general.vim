@@ -36,19 +36,9 @@ set smartcase
 
 " Search and replace
 nmap <Leader>s :%s//g<Left><Left>
-
-" Zap trailing whitespace.
-function! Zap() abort
-  let l:pos=getcurpos()
-  let l:search=@/
-  keepjumps %substitute/\s\+$//e
-  let @/=l:search
-  nohlsearch
-  call setpos('.', l:pos)
-endfunction
-
-" <Leader>zz -- Zap trailing whitespace in the current buffer.
-nnoremap <silent> <Leader>zz :call Zap()<CR>
+"
+" Remove trailing white spaces on save
+autocmd BufWritePre * :%s/\s\+$//e
 
 " Show problematic characters
 set list
@@ -114,6 +104,7 @@ nmap <Leader>\ :vs<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>w :w<CR>
 nmap <leader>a :cclose<CR>
+nmap <leader>h :nohlsearch<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %
