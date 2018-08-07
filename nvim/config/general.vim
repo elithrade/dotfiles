@@ -16,7 +16,6 @@ let mapleader="\<SPACE>"
 
 set number
 set relativenumber
-" set clipboard=unnamed
 set clipboard+=unnamedplus
 
 " Insert spaces when Tab is pressed
@@ -103,8 +102,9 @@ nmap <Leader>- :sp<CR>
 nmap <Leader>\ :vs<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>w :w<CR>
+nmap <leader>c :close<CR>
 nmap <leader>a :cclose<CR>
-nmap <leader>h :nohlsearch<CR>
+nmap <leader>h :noh<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %

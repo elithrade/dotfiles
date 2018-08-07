@@ -15,7 +15,7 @@ autocmd FileType javascript :call ResolveESLint()
 
 " Run Neomake when start editing or writing to file
 autocmd! BufWritePost,BufReadPost * Neomake
-let g:neomake_open_list = 2
+" let g:neomake_open_list = 2
 
 let g:neomake_javascript_enabled_makers = ['eslint']
 
