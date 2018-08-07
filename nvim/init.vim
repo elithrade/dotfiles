@@ -4,8 +4,7 @@ source ~/.config/nvim/config/lightline.vim
 source ~/.config/nvim/config/neomake.vim
 source ~/.config/nvim/config/autocmds.vim
 source ~/.config/nvim/config/ultisnips.vim
-source ~/.config/nvim/config/unite.vim
-source ~/.config/nvim/config/vimfiler.vim
+source ~/.config/nvim/config/fzf.vim
 source ~/.config/nvim/config/deoplete.vim
 source ~/.config/nvim/config/jedi.vim
 source ~/.config/nvim/config/vim-go.vim

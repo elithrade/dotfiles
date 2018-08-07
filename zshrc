@@ -39,3 +39,5 @@ export PATH=$PATH:$GOPATH/bin
 PATH=$PATH:/opt/FlameGraph
 
 source ~/.aliases.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
