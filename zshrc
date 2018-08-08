@@ -1,4 +1,5 @@
 source ~/antigen.zsh
+source ~/.history.zsh
 
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-autosuggestions

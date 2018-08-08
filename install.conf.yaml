@@ -15,6 +15,7 @@
     ~/.aliases.sh: aliases.sh
     ~/.zprofile: zprofile
     ~/.yaourtrc: yaourtrc
+    ~/.history.zsh: history.zsh
 
 - shell:
   - git submodule update --init --recursive
