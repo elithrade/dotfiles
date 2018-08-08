@@ -102,9 +102,10 @@ nmap <Leader>- :sp<CR>
 nmap <Leader>\ :vs<CR>
 nmap <Leader>q :q<CR>
 nmap <Leader>w :w<CR>
-nmap <leader>c :close<CR>
-nmap <leader>a :cclose<CR>
-nmap <leader>h :noh<CR>
+nmap <Leader>c :close<CR>
+" Close quickfix
+nmap <Leader>a :cclose<CR>
+nmap <Leader>n :noh<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
 cmap sw w !sudo tee > /dev/null %
