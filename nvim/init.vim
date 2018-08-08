@@ -8,3 +8,4 @@ source ~/.config/nvim/config/fzf.vim
 source ~/.config/nvim/config/deoplete.vim
 source ~/.config/nvim/config/jedi.vim
 source ~/.config/nvim/config/vim-go.vim
+source ~/.config/nvim/config/bclose.vim
