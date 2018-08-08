@@ -1,1 +1,1 @@
-nmap <Leader>cc :Bclose<CR>
+nmap <Leader>b :Bclose<CR>
