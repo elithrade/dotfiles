@@ -1,2 +1,3 @@
 " <F10> | NERD Tree
-nnoremap <F10> :NERDTreeToggle<CR>
+nnoremap <silent><F10> :NERDTreeToggle<CR>
+let g:NERDTreeWinSize=40
