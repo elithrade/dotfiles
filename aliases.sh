@@ -13,6 +13,7 @@ alias gb="git branch"
 alias glrh="git ls-remote --heads"
 alias glo="git log --oneline"
 alias grhh="git reset --hard HEAD"
+alias gfo="git fetch origin"
 alias gcp="git cherry-pick $1"
 alias ga="git add $1"
 
