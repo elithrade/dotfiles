@@ -96,6 +96,13 @@ nnoremap <silent> <Tab> :wincmd w<CR>
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
+" Use Use <c-6>/<c-^> [b to go back to the previous buffer
+" % - Create a new file
+" d - Create a new directory
+" D - Delete the file/directory under the cursor (or marked files/dirs)
+" R - Rename/move file/directory
+nnoremap - :Ntree<CR>
+
 " Horizontal split
 nmap <Leader>- :sp<CR>
 " Vertical split
