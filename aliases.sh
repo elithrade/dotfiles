@@ -37,7 +37,6 @@ alias nrc="npm run commit"
 
 # Yaourt/pacman
 alias yao="yaourt"
-alias autoremove="sudo pacman -Rcns $(pacman -Qdtq)"
 
 # Tmux
 alias t="env TERM=xterm-256color tmux"
