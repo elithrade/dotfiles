@@ -45,3 +45,4 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
 # added by Miniconda3 installer
 export PATH="/home/hub/miniconda3/bin:$PATH"
+. /home/hub/miniconda3/etc/profile.d/conda.sh
