@@ -9,4 +9,4 @@ source ~/.config/nvim/config/deoplete.vim
 source ~/.config/nvim/config/jedi.vim
 source ~/.config/nvim/config/vim-go.vim
 source ~/.config/nvim/config/bclose.vim
-source ~/.config/nvim/config/nerdtree.vim
+source ~/.config/nvim/config/defx.vim
