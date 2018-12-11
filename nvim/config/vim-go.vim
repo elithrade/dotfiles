@@ -23,11 +23,20 @@ augroup go
   autocmd FileType go nmap <Leader>d <Plug>(go-doc)
   " Toggle between file.go and file_test.go
   autocmd Filetype go nmap <leader>a <Plug>(go-alternate-edit)
-  autocmd FileType go nmap <Leader>cc <Plug>(go-coverage-clear)
   autocmd FileType go nmap <Leader><F12> <Plug>(go-referrers)
   autocmd FileType go nmap <F12> <Plug>(go-def)
   autocmd FileType go nmap <Leader>rr <Plug>(go-rename)
   autocmd FileType go nmap <Leader>ii <Plug>(go-implements)
+  " Run dlv debug for the current session. Use this to test main packages
+  autocmd FileType go nmap <LocalLeader>db :DlvDebug<CR>
+  " Run dlv test for the current session. Use this to debug non-main packages
+  autocmd FileType go nmap <LocalLeader>dt :DlvTest<CR>
+  " Convenience method to toggle (add or remove) a breakpoint at the current line
+  autocmd FileType go nmap <LocalLeader>tb :DlvToggleBreakpoint<CR>
+  " Convenience method to toggle (add or remove) a tracepoint at the current line
+  autocmd FileType go nmap <LocalLeader>tt :DlvToggleTracepoint<CR>
+  " Clear all the breakpoints and tracepoints in the buffer
+  autocmd FileType go nmap <LocalLeader>ca :DlvClearAll<CR>
 augroup END
 " build_go_files is a custom function that builds or compiles the test file.
 " It calls :GoBuild if its a Go file, or :GoTestCompile if it's a test file

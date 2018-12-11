@@ -13,6 +13,8 @@ endtry
 
 " Map the leader key to space
 let mapleader="\<SPACE>"
+" Map the local leader tp \
+let maplocalleader = "\\"
 
 set number
 set relativenumber

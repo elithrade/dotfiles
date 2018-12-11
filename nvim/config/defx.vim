@@ -1,5 +1,4 @@
-nmap \ [defx]
-nnoremap <silent> [defx]e :Defx<CR>
+nnoremap <silent> <localleader>e :Defx<CR>
 
 autocmd FileType defx call s:defx_my_settings()
 function! s:defx_my_settings() abort
