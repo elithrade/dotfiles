@@ -10,12 +10,6 @@ let g:go_highlight_function_calls = 1
 let g:go_highlight_extra_types = 1
 let g:go_highlight_generate_tags = 1
 
-augroup julia
-  autocmd!
-  " Show by default 4 spaces for a tab
-  autocmd BufNewFile,BufRead *.jl setlocal tabstop=4 shiftwidth=4
-augroup END
-
 augroup go
   autocmd!
   " Show by default 4 spaces for a tab and not showing problematic characters
