@@ -91,6 +91,8 @@ inoremap <C-v> <Esc>"+p
 nnoremap n nzz
 nnoremap coh :nohl<CR>
 nnoremap J mzJ`z
+" Quickly replace the current word under cursor with what's in register 0
+nnoremap <C-j> cw<C-r>0<Esc>
 nnoremap <silent> <Tab> :wincmd w<CR>
 
 " Search mappings: These will make it so that going to the next one in a
