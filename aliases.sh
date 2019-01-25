@@ -35,9 +35,6 @@ alias nrb="npm run build"
 alias nrt="npm run test"
 alias nrc="npm run commit"
 
-# Yaourt/pacman
-alias yao="yaourt"
-
 # Tmux
 alias t="env TERM=xterm-256color tmux"
 alias e="exit"
