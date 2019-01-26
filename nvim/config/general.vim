@@ -13,7 +13,7 @@ endtry
 
 " Map the leader key to space
 let mapleader="\<SPACE>"
-" Map the local leader tp \
+" Map the local leader to \
 let maplocalleader = "\\"
 
 set number
