@@ -48,3 +48,5 @@ alias ascpr="aws s3 cp --recursive"
 
 # go
 alias gosrc="cd $GOPATH/src"
+alias gose="cd $GOPATH/src/github.com/elithrade"
+alias gosg="cd $GOPATH/src/github.com"

@@ -20,15 +20,21 @@ Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'simeji/winresizer'
-Plug 'moll/vim-node', { 'for': 'javascript' }
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript' }
-Plug 'othree/yajs.vim', { 'for': 'javascript' }
-Plug 'othree/es.next.syntax.vim', { 'for': 'javascript' }
+
+Plug 'moll/vim-node', { 'for': 'javascript' }
+Plug 'carlitux/deoplete-ternjs', { 'for': 'javascript', 'do': 'npm install -g tern'}
 Plug 'gavocanov/vim-js-indent', { 'for': 'javascript' }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'mxw/vim-jsx', { 'for': 'javascript' }
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'npm install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+
 Plug 'zchee/deoplete-jedi', { 'for': 'python' }
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'vim-python/python-syntax', { 'for': 'python' }
+
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries', 'for': 'go' }
 Plug 'nsf/gocode', { 'rtp': 'nvim', 'do': '~/.config/nvim/plugged/gocode/nvim/symlink.sh', 'for': 'go' }
 Plug 'zchee/deoplete-go', { 'do': 'make', 'for': 'go'}
