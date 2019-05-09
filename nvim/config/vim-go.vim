@@ -15,18 +15,15 @@ augroup go
   " Show by default 4 spaces for a tab and not showing problematic characters
   autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4 nolist
   " :GoBuild and :GoTestCompile
-  autocmd FileType go nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
-  autocmd FileType go nmap <leader>t  <Plug>(go-test)
-  autocmd FileType go nmap <leader>r  <Plug>(go-run)
-  autocmd FileType go nmap <Leader>i <Plug>(go-info)
+  autocmd FileType go nmap gb :<C-u>call <SID>build_go_files()<CR>
+  autocmd FileType go nmap gt  <Plug>(go-test)
+  autocmd FileType go nmap gi <Plug>(go-implements)
+  autocmd FileType go nmap gr <Plug>(go-referrers)
   autocmd FileType go nmap <Leader>c <Plug>(go-coverage-toggle)
-  autocmd FileType go nmap <Leader>d <Plug>(go-doc)
   " Toggle between file.go and file_test.go
   autocmd Filetype go nmap <leader>a <Plug>(go-alternate-edit)
-  autocmd FileType go nmap <Leader><F12> <Plug>(go-referrers)
-  autocmd FileType go nmap <F12> <Plug>(go-def)
+  autocmd FileType go nmap <Leader>r  <Plug>(go-run)
   autocmd FileType go nmap <Leader>rr <Plug>(go-rename)
-  autocmd FileType go nmap <Leader>ii <Plug>(go-implements)
   " Run dlv debug for the current session. Use this to test main packages
   autocmd FileType go nmap <LocalLeader>db :DlvDebug<CR>
   " Run dlv test for the current session. Use this to debug non-main packages
