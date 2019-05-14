@@ -64,8 +64,11 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " Remap for rename current word
 nmap <leader>rr <Plug>(coc-rename)
 
+" Use :Prettier to format current buffer.
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 " Remap for format selected region
-xmap <leader>z  <Plug>(coc-format-selected)
+vmap <leader>z  <Plug>(coc-format-selected)
 nmap <leader>z  <Plug>(coc-format-selected)
 
 augroup mygroup
@@ -81,9 +84,9 @@ xmap <leader>a  <Plug>(coc-codeaction-selected)
 nmap <leader>a  <Plug>(coc-codeaction-selected)
 
 " Remap for do codeAction of current line
-nmap <leader>ac  <Plug>(coc-codeaction)
+nmap <leader>ca  <Plug>(coc-codeaction)
 " Fix autofix problem of current line
-nmap <leader>af  <Plug>(coc-fix-current)
+nmap <leader>aa  <Plug>(coc-fix-current)
 
 " Use `:Format` to format current buffer
 command! -nargs=0 Format :call CocAction('format')
