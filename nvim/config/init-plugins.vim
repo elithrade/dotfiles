@@ -2,7 +2,8 @@ filetype off
 
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'itchyny/lightline.vim'
+" Plug 'itchyny/lightline.vim'
+Plug 'rbong/vim-crystalline'
 Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
 Plug 'christoomey/vim-tmux-navigator'
