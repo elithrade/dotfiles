@@ -18,7 +18,6 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
-Plug 'rbgrouleff/bclose.vim'
 Plug 'simeji/winresizer'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 "
