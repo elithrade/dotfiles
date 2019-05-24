@@ -2,8 +2,8 @@ filetype off
 
 call plug#begin('~/.local/share/nvim/plugged')
 
-" Plug 'itchyny/lightline.vim'
-Plug 'rbong/vim-crystalline'
+Plug 'itchyny/lightline.vim'
+" Plug 'rbong/vim-crystalline'
 Plug 'rbong/vim-flog'
 Plug 'tpope/vim-fugitive'
 Plug 'chriskempson/base16-vim'
@@ -36,7 +36,7 @@ Plug 'sebdah/vim-delve', { 'for': 'go' }
 
 Plug 'neoclide/coc.nvim', {'tag': '*', 'do': './install.sh'}
 Plug 'sheerun/vim-polyglot'
-Plug 'w0rp/ale'
+" Plug 'w0rp/ale'
 
 call plug#end()
 
