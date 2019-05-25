@@ -1,5 +1,8 @@
 {
-"suggest.autoTrigger": "none",
+  "suggest.echodocSupport": true,
+  "diagnostic.errorSign": "✖",
+  "diagnostic.warningSign": "▲",
+  "diagnostic.infoSign": "ℹ",
   "languageserver": {
     "golang": {
       "command": "gopls",
@@ -7,14 +10,5 @@
       "filetypes": ["go"]
     }
   },
-  "coc.preferences.formatOnSaveFiletypes": [
-    "css",
-    "Markdown",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "json",
-    "graphql"
-  ]
+  "python.jediEnabled": false
 }
