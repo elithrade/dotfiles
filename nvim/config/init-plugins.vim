@@ -16,6 +16,7 @@ Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'SirVer/ultisnips'
+Plug 'lambdalisue/suda.vim'
 
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries', 'for': 'go' }
 Plug 'sebdah/vim-delve', { 'for': 'go' }

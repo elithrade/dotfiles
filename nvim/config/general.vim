@@ -114,7 +114,7 @@ nmap <Leader>n :noh<CR>
 nmap <Leader>b :bdelete<CR>
 
 " Allow saving of files as sudo when I forgot to start vim using sudo
-cmap sw w !sudo tee > /dev/null %
+cmap sw :w suda://%
 
 " Closes the terminal buffer and jump back to the previous one
 tnoremap <ESC> <C-\><C-n>:buffer #<CR>
