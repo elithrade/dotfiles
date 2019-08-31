@@ -30,6 +30,7 @@ antigen apply
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$(go env GOPATH)/bin
 export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/.dotnet/tools
 
 source ~/.aliases.sh
 
