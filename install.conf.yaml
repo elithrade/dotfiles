@@ -15,6 +15,7 @@
     ~/.aliases.sh: aliases.sh
     ~/.zprofile: zprofile
     ~/.history.zsh: history.zsh
+    ~/.config/kitty.conf: kitty.conf
 
 - shell:
   - git submodule update --init --recursive
