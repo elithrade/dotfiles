@@ -59,3 +59,6 @@ alias yag="yarn add global"
 alias ys="yarn start"
 alias yt="yarn test"
 alias yb="yarn build"
+
+# Other
+alias snip="maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i"
