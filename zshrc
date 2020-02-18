@@ -43,6 +43,6 @@ export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 # To apply the command to CTRL-T as well
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 
-export MSBuildSDKsPath=/opt/dotnet/sdk/$(dotnet --version)/Sdks
+export MSBuildSDKsPath=/usr/share/dotnet/sdk/$(dotnet --version)/Sdks
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

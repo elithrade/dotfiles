@@ -62,3 +62,12 @@ alias yb="yarn build"
 
 # Other
 alias snip="maim -s --format=png /dev/stdout | xclip -selection clipboard -t image/png -i"
+
+# Dotnet
+alias d2="export MSBuildSDKsPath=/usr/share/dotnet/sdk/2.2.109/Sdks"
+alias dl="export MSBuildSDKsPath=/usr/share/dotnet/sdk/$(dotnet --version)/Sdks"
+alias dbs="dotnet build-server shutdown"
+alias db="dotnet build"
+alias dr="dotnet run"
+alias dv="dotnet --version"
+alias dls="dotnet --list-sdks"
