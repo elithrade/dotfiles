@@ -60,6 +60,10 @@
     stdin: true
     stdout: true
   -
+    command: sudo pacman -S bat --noconfirm
+    stdin: true
+    stdout: true
+  -
     command: git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     stdin: true
     stdout: true
