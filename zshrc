@@ -13,7 +13,7 @@ antigen bundle jeffreytse/zsh-vi-mode
 export KEYTIMEOUT=1
 
 # PURE_PROMPT_SYMBOL='→'
-PURE_PROMPT_SYMBOL='λ'
+# PURE_PROMPT_SYMBOL='λ'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
@@ -46,3 +46,6 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export MSBuildSDKsPath=/usr/share/dotnet/sdk/$(dotnet --version)/Sdks
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+# https://github.com/jeffreytse/zsh-vi-mode/issues/24
+zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
