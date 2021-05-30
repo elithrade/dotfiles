@@ -10,7 +10,6 @@
       "filetypes": ["go"]
     }
   },
-  "python.jediEnabled": false,
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "Markdown",
@@ -22,5 +21,4 @@
     "graphql",
     "json"
   ],
-  "prettier.tslintIntegration": true
 }

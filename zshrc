@@ -20,8 +20,8 @@ export NVM_DIR="$HOME/.nvm"
 export NODE_PATH=$NODE_PATH:`npm root -g` # This is needed to resolve coc error 'cannot find module typescript'
 
 # Uncomment following lines when run it for the first time, it causes konsole to output ////// characters
-# BASE16_SHELL=$HOME/.config/base16-shell/
-# [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+BASE16_SHELL=$HOME/.config/base16-shell/
+[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 export EDITOR=nvim
 
