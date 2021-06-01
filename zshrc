@@ -4,16 +4,16 @@ source ~/.history.zsh
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
 antigen bundle jump
 antigen bundle jeffreytse/zsh-vi-mode
 
 # Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
 export KEYTIMEOUT=1
 
-# PURE_PROMPT_SYMBOL='→'
-# PURE_PROMPT_SYMBOL='λ'
+# pure prompt
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm

@@ -67,3 +67,7 @@
     command: git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
     stdin: true
     stdout: true
+  -
+    command: mkdir -p ~/.zsh && git clone https://github.com/sindresorhus/pure.git ~/.zsh/pure
+    stdin: true
+    stdout: true
