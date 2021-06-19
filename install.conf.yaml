@@ -71,3 +71,7 @@
     command: mkdir -p ~/.zsh && git clone https://github.com/sindresorhus/pure.git ~/.zsh/pure
     stdin: true
     stdout: true
+  -
+    command: git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf && ~/.fzf/install
+    stdin: true
+    stdout: true
