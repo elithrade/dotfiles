@@ -1,6 +1,10 @@
 filetype off
 
-call plug#begin('~/.local/share/nvim/plugged')
+if has("nvim")
+  let g:plug_home = stdpath('data') . '/plugged'
+endif
+
+call plug#begin()
 
 Plug 'itchyny/lightline.vim'
 Plug 'rbong/vim-flog'
