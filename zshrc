@@ -1,6 +1,10 @@
 source ~/antigen.zsh
 source ~/.history.zsh
 
+# https://github.com/jeffreytse/zsh-vi-mode/issues/24#issuecomment-873029329
+# Doing initialization at the plugin sourcing (Instantly)
+ZVM_INIT_MODE=sourcing
+
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -45,7 +49,3 @@ export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export MSBuildSDKsPath=/usr/share/dotnet/sdk/$(dotnet --version)/Sdks
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
-
-# https://github.com/jeffreytse/zsh-vi-mode/issues/24
-zvm_after_init_commands+=('[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh')
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
