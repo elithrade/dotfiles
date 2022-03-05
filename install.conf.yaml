@@ -48,6 +48,10 @@
     stdin: true
     stdout: true
   -
+    command: sudo pip3 install --user pynvim
+    stdin: true
+    stdout: true
+  -
     command: sudo pacman -S the_silver_searcher --noconfirm
     stdin: true
     stdout: true
