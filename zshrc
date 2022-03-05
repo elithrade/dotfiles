@@ -1,5 +1,4 @@
 source ~/antigen.zsh
-source ~/.history.zsh
 
 # https://github.com/jeffreytse/zsh-vi-mode/issues/24#issuecomment-873029329
 # Doing initialization at the plugin sourcing (Instantly)
@@ -7,9 +6,15 @@ ZVM_INIT_MODE=sourcing
 
 antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-autosuggestions
-antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle jump
 antigen bundle jeffreytse/zsh-vi-mode
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen apply
+
+source ~/.history.zsh
 
 # Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
 export KEYTIMEOUT=1
@@ -29,8 +34,6 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 export EDITOR=nvim
-
-antigen apply
 
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.dotnet/tools
