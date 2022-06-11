@@ -71,3 +71,6 @@ alias db="dotnet build"
 alias dr="dotnet run"
 alias dv="dotnet --version"
 alias dls="dotnet --list-sdks"
+
+# Minikube
+alias kubectl="minikube kubectl --"
